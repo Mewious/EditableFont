@@ -1,0 +1,10 @@
+# Project place file
+/EditableFont.rbxlx
+
+/Packages
+
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock
+
+sourcemap.json
