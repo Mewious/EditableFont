@@ -1,14 +1,14 @@
 [package]
 name = "mewious/editable-font"
 description = "Pure-Luau TTF font parser and renderer using EditableImage. Bakes TrueType glyphs into texture atlases for fast ImageLabel-based text rendering with support for kerning, rich text, custom charsets, and font weight."
-version = "0.1.0"
+version = "0.1.5"
 license = "MIT"
 authors = ["Mewious <mewious3@gmail.com>"]
 registry = "https://github.com/UpliftGames/wally-index"
 repository = "https://github.com/Mewious/EditableFont"
 realm = "shared"
 
-include = ["src"]
+exclude = ["test"]
 
-[dependencies]
+[dev-dependencies]
 Maid = "coiorevent8/maid@3.4.0"

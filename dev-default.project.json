@@ -1,0 +1,18 @@
+{
+  "name": "EditableFont",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "EditableFont": {
+        "$path": "src"
+      },
+      "Packages": {
+        "$path": "Packages"
+      },
+      "Test": {
+        "$path": "test"
+      }
+    }
+  }
+}
