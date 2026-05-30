@@ -21,7 +21,7 @@ Add to your `wally.toml`:
 
 ```toml
 [dependencies]
-EditableFont = "mewious/editable-font@0.1.0"
+EditableFont = "mewious/editable-font@0.1.6"
 ```
 
 Then run:
