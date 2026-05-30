@@ -1,4 +1,4 @@
-﻿export type Vec2 = { x: number, y: number }
+export type Vec2 = { x: number, y: number }
 
 export type GlyphPoint = {
 	x: number,

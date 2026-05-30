@@ -7,7 +7,7 @@ local function getFontData(name)
 	if not data then
 		error("Font data not found for font: " .. name)
 	end
-	return EncodingService:Base64Decode(buffer.fromstring(require(data)))
+	return EncodingService:Base64Decode(buffer.fromstring(data.Value))
 end
 
 return function(target)

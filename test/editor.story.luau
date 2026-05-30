@@ -46,7 +46,7 @@ type RichTextStyle = {
 
 local fonts = {}
 for _, v in script.Parent.Fonts:GetChildren() do
-	fonts[v.Name] = require(v)
+	fonts[v.Name] = v.Value
 end
 
 local bakedFonts = {}

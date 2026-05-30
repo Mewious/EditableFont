@@ -1,4 +1,4 @@
-﻿local FontAtlas = require(script.FontAtlas)
+local FontAtlas = require(script.FontAtlas)
 local TTFParser = require(script.TTFParser)
 
 type RenderSegment = {

@@ -1,4 +1,4 @@
-﻿local TTFParser = require(script.Parent.TTFParser)
+local TTFParser = require(script.Parent.TTFParser)
 
 local AssetService = game:GetService("AssetService")
 
